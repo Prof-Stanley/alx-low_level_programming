@@ -5,7 +5,7 @@
  * @a: first interger
  * @b: second interger
  * @c: third interger
- * return: largest number
+ * Return: largest number.
  */
 
 int largest_number(int a, int b, int c)
