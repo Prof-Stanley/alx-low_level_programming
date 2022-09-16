@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - main block, solve fizz buzz from numbers 1 to 100
@@ -21,10 +21,12 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d", i);
+
 		if (i != 100)
 			printf(" ");
 		i++;
 	}
 	printf("\n");
+
 	return (0);
 }

@@ -18,6 +18,7 @@ void print_number(int n)
 		num *= -1;
 		_putchar('-');
 	}
+
 	/* count up */
 	m = 1;
 	c = 1;
@@ -28,6 +29,7 @@ void print_number(int n)
 		else
 			c = 0;
 	}
+
 	/* count down */
 	while (num >= 0)
 	{
