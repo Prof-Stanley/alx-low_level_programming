@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -6,7 +7,7 @@
  * @f: function pointer that takes a string argument
  */
 
-void print_name(char *name, void (*f)(char *))
+void print_name(char *name, void (*f)(char *));
 {
 	f(name);
 }
